@@ -1,1 +1,1 @@
-# Bank_Note_Authentication_App
+# Bank Note Authentication App
