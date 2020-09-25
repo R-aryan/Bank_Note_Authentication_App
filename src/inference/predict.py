@@ -16,6 +16,14 @@ class NotePredictor:
     def predict(self, variance, skewness, curtosis, entropy):
         result = self.classifier.predict([[variance, skewness, curtosis, entropy]])
         print(result)
+        print(type(result))
+
+        if result[0] == 0:
+            print("Not authentic Note")
+            return False
+        else:
+            print("Authentic note")
+            return True
 
 
 nap = NotePredictor()
