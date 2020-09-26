@@ -26,5 +26,5 @@ class NotePredictor:
             return True
 
 
-nap = NotePredictor()
-nap.predict(1.0552, 1.1857, -2.6411, 0.11033)
+# nap = NotePredictor()
+# nap.predict(1.0552, 1.1857, -2.6411, 0.11033)
