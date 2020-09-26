@@ -10,7 +10,6 @@ from src.inference.predict import NotePredictor
 app = Flask(__name__)
 Swagger(app)
 
-
 @app.route('/')
 def welcome():
     return "Welcome All"
@@ -19,8 +18,9 @@ def welcome():
 nap = NotePredictor()
 
 
-@app.route('/predict', methods=["GET"])
+@app.route('/predict', methods=["Get"])
 def predict_note_authentication():
+
     """Let's Authenticate the Banks Note
     This is using docstrings for specifications.
     ---
@@ -52,10 +52,18 @@ def predict_note_authentication():
     curtosis = request.args.get("curtosis")
     entropy = request.args.get("entropy")
 
+    result = ""
+
     prediction = nap.predict(variance, skewness, curtosis, entropy)
 
     if prediction:
-        return "The note is Authentic"
+        result = "The note is Authentic"
 
     else:
-        return "The note is not authentic"
+        result = "The note is not authentic"
+
+    return result
+
+#
+# if __name__ == '__main__':
+#     app.run(debug=True)
