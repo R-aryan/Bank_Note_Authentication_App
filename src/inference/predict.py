@@ -25,6 +25,9 @@ class NotePredictor:
             print("Authentic note")
             return True
 
+    def predict_file(self, file_csv):
+        result = self.classifier.predict(file_csv)
 
+        return result
 # nap = NotePredictor()
 # nap.predict(1.0552, 1.1857, -2.6411, 0.11033)
