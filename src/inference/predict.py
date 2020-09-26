@@ -10,7 +10,7 @@ import pickle
 class NotePredictor:
 
     def __init__(self):
-        self.pickle_in = open("../training/note_classifier.pkl", "rb")
+        self.pickle_in = open("src/training/note_classifier.pkl", "rb")
         self.classifier = pickle.load(self.pickle_in)
 
     def predict(self, variance, skewness, curtosis, entropy):
