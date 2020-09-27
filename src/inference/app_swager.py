@@ -85,7 +85,10 @@ def predict_note_file():
     print(df_test.head())
     prediction = nap.predict_file(df_test)
 
-    return str(list(prediction))
+    res = "The number zero(0) indicates that the note is note Authentic and the Number one(1)indicates that the Note " \
+          "is Authentic, and here are the list of Predictions \n "
+
+    return res+str(list(prediction))
 
 #
 # if __name__ == '__main__':
