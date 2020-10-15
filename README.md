@@ -17,4 +17,5 @@ click the link above or [click here](https://bank-na.herokuapp.com/apidocs) to v
 - After completing the above steps run the file **main.py** in your terminal.
 - After running **main.py** you will get an url(eg- http://127.0.0.1:5000/) copy this URl and paste it to your browser.
 - At the end of the URL add  **apidocs/ eg-(http://127.0.0.1:5000/apidocs)** and then pres enter.
-- Your flask application is now up and running and should look something like this. 
+- Your flask application is now up and running and should look something like this.
+![Image of Webpage](src/static/demo_image_1.png).
