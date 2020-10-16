@@ -36,3 +36,8 @@ click the link above or [click here](https://bank-na.herokuapp.com/apidocs) to v
 
 - After clicking on **execute** you will get the following result.
 ![Image of Result](https://github.com/R-aryan/Bank_Note_Authentication_App/blob/feature/phase-1/src/static/demo_image_6.PNG).
+
+
+## For Modelling Training.
+
+- For model training go to the [Training Directory](https://github.com/R-aryan/Bank_Note_Authentication_App/tree/feature/phase-1/src/training), and go through the notebook. 
