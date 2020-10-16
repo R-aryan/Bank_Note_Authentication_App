@@ -28,3 +28,11 @@ click the link above or [click here](https://bank-na.herokuapp.com/apidocs) to v
 
 - After clicking on **execute** you will get a result as shown in the figure.
 ![Image of Result](https://github.com/R-aryan/Bank_Note_Authentication_App/blob/feature/phase-1/src/static/demo_image_4.PNG).
+
+- Similarly you can also upload a csv file and get predictions for multiple records, to do so click on the post method and it will appear as shown in the figure.
+![Image of POST method](https://github.com/R-aryan/Bank_Note_Authentication_App/blob/feature/phase-1/src/static/demo_image_5.PNG).
+
+- Upload the csv and click on **execute**.
+
+- After clicking on **execute** you will get the following result.
+![Image of Result](https://github.com/R-aryan/Bank_Note_Authentication_App/blob/feature/phase-1/src/static/demo_image_6.PNG).
