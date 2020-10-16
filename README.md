@@ -20,3 +20,11 @@ click the link above or [click here](https://bank-na.herokuapp.com/apidocs) to v
 - Your flask application is now up and running and should look something like this.
 ![Image of Webpage](https://github.com/R-aryan/Bank_Note_Authentication_App/blob/feature/phase-1/src/static/demo_image_1.PNG).
 
+- Click on **GET** Method and You see a form something like this.
+![Image of Form](https://github.com/R-aryan/Bank_Note_Authentication_App/blob/feature/phase-1/src/static/demo_image_2.PNG).
+
+- Click on **Try it Out** and enter the values in the form as shown in the figure and after entering the values click on **Execute** 
+![Image of Form with values](https://github.com/R-aryan/Bank_Note_Authentication_App/blob/feature/phase-1/src/static/demo_image_3.PNG).
+
+- After clicking on **execute** you will get a result as shown in the figure.
+![Image of Result](https://github.com/R-aryan/Bank_Note_Authentication_App/blob/feature/phase-1/src/static/demo_image_4.PNG).
