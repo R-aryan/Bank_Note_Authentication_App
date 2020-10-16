@@ -8,6 +8,14 @@
 A basic web app deployed at heroku, which classifies whether a note is fake or 
 not based on certain parameters, using supervised machine learning algorithms.
 
+The Parameters/Columns Used in the dataset are.
+
+- [Variance](https://en.wikipedia.org/wiki/Variance)
+- [Skewness](https://en.wikipedia.org/wiki/Skewness#:~:text=In%20probability%20theory%20and%20statistics,zero%2C%20negative%2C%20or%20undefined.)
+- [Kurtosis](https://en.wikipedia.org/wiki/Kurtosis#:~:text=In%20probability%20theory%20and%20statistics,a%20real%2Dvalued%20random%20variable.)
+- [Entropy](https://en.wikipedia.org/wiki/Entropy_(information_theory)#:~:text=In%20information%20theory%2C%20the%20entropy,A%20Mathematical%20Theory%20of%20Communication%22.)
+
+
 This project is implemented end-to-end and is deployed at heroku, you can
 click the link above or [click here](https://bank-na.herokuapp.com/apidocs) to visit the web app.
 
