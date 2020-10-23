@@ -24,7 +24,7 @@ click the link above or [click here](https://bank-na.herokuapp.com/apidocs) to v
 - create a virtual environment and install **requirements.txt** file.
 - After completing the above steps run the file **main.py** in your terminal.
 - After running **main.py** you will get an url(eg- http://127.0.0.1:5000/) copy this URl and paste it to your browser.
-- At the end of the URL add  **apidocs/ eg-(http://127.0.0.1:5000/apidocs)** and then pres enter.
+- At the end of the URL add  **apidocs/ eg-(http://127.0.0.1:5000/apidocs)** and then press enter.
 - Your flask application is now up and running and should look something like this.
 ![Image of Webpage](https://github.com/R-aryan/Bank_Note_Authentication_App/blob/feature/phase-1/src/static/demo_image_1.PNG).
 
